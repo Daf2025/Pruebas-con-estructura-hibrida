@@ -1,0 +1,23 @@
+# Ignorar archivos que no son relevantes para detección de lenguaje principal
+
+# Archivos XML (pom.xml, testng.xml, etc.)
+*.xml linguist-detectable=false
+
+# Archivos HTML o páginas de práctica (si las hubiere)
+*.html linguist-detectable=false
+
+# Archivos Markdown (README, documentación)
+*.md linguist-detectable=false
+
+# Archivos de configuración u otros genéricos
+*.properties linguist-detectable=false
+*.yml linguist-detectable=false
+*.json linguist-detectable=false
+
+# Tratamiento de archivos Java
+*.java text eol=lf
+
+# Si tienes archivos binarios como imágenes o jar
+*.png binary
+*.jpg binary
+*.jar binary
